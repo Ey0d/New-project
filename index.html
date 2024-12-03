@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+  </head>
+  <body>
+   
+    <div class="parent bg-white rounded-3">
+      <h1 class="text-center">Todo App</h1>
+      <div class="d-flex justify-content-center gap-2 mp-4">
+        <input type="text" class="rounded-2 border-1 border" placeholder="write here....." id="dataentry">  
+        <button class="btn btn-outline-dark" id="additem"><i class="fas fa-plus"></i></button>
+        <button class="btn btn-outline-warning" id="updateItem">edit</button>
+     </div>
+      <div id="result" class="d-flex p-3 rounded flex-column align-items-center justify-content-center ">
+        <div class="child rounded-2 d-flex justify-content-between border align-items-center gap-2 border p-2 rounded-2 ">
+          <!-- <button class="border-0 bg-transparent"><i class="fas fa-times-circle text-danger"></i></button> -->
+        </div>
+      </div>
+      <div class="Clear d-flex justify-content-around align-items-center">
+        <b id="pendingtask"></b>
+        <button class="btn btn-outline-danger" id="clearDataBTN">Clear Data</button>
+      </div>
+    </div>
+    
+    
+
+    
+      <div class="alert alert-danger" role="alert" id="Alertdata">
+        Please Fill Data!!!
+        <button class="border-0 bg-transparent" id="Removealert"><i class="fas fa-times-circle text-danger"></i></button>
+      </div>
+      
+
+      <script src="script.js"></script>
+      <script src="bootstrap.min.js"></script>
+  </body>
+
+</html>
+

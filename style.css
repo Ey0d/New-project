@@ -1,0 +1,33 @@
+h1{
+ text-decoration: underline;
+ margin: 50px;
+}
+
+body{
+  background: url("Img/gradient-descent.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.alert{
+   width: 350px; 
+   position: absolute;
+   top: 0;
+   left: 350px;
+   display: none;
+}
+
+.parent{
+   width: 350px;
+   height: 500px;
+   margin: 0 auto;
+
+}
+
+.child{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
